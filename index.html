@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080a0d" />
+    <meta name="description" content="Sofiqul Islam builds thoughtful automations, API integrations, and AI-powered workflows." />
+    <title>Sofiqul Islam — Automation Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="scenes.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Sofiqul Islam home">
+        <span class="brand-mark">S<span>.</span></span>
+        <span class="brand-name">SOFIQUL<br /><i>ISLAM</i></span>
+      </a>
+      <nav class="main-nav" aria-label="Scene navigation">
+        <a class="active" href="#home" data-scene-link="0"><span class="nav-number">01</span> Intro</a>
+        <a href="#work" data-scene-link="1"><span class="nav-number">02</span> Projects</a>
+        <a href="#about" data-scene-link="2"><span class="nav-number">03</span> About</a>
+        <a href="#quality" data-scene-link="3"><span class="nav-number">04</span> Quality</a>
+        <a href="#contact" data-scene-link="4"><span class="nav-number">05</span> Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <span class="availability"><i></i> OPEN TO OPPORTUNITIES</span>
+        <button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="false">✦ Enable motion</button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">☼ Light</button>
+        <a class="header-name" href="#home" id="header-name">Sofiqul Islam</a>
+      </div>
+    </header>
+
+    <main id="journey-main">
+      <div class="journey-track" id="journey-track">
+        <div class="journey-stage" id="journey-stage">
+
+          <section class="story-scene scene-hero" id="home" data-scene="0" aria-labelledby="hero-heading">
+            <div class="scene-backdrop"></div><div class="scene-grid"></div><div class="scene-vignette"></div>
+            <div class="scene-inner hero-inner">
+              <div class="scene-eyebrow mono"><span class="live-dot"></span><span id="hero-role">N8N AUTOMATION · API & AI INTEGRATIONS</span><span> · DHAKA, BANGLADESH</span></div>
+              <div class="hero-title-wrap"><h1 id="hero-heading">Sofiqul<br />Islam<span class="hero-period">.</span></h1></div>
+              <p class="hero-lede" id="hero-description">I build useful automations and connect APIs with AI—turning repetitive steps into dependable workflows.</p>
+              <div class="hero-actions"><a class="primary-cta" href="#work" data-go-scene="1">Explore my projects <span>↓</span></a><a class="secondary-cta" href="https://github.com/Sofiqulxislam" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div>
+              <div class="hero-foot mono"><span>SCROLL TO MOVE THROUGH THE WORK</span><span>01 — 05</span></div>
+              <div class="scene-orbit" aria-hidden="true"><i></i><b></b><span></span></div>
+            </div>
+          </section>
+
+          <section class="story-scene scene-projects" id="work" data-scene="1" aria-labelledby="projects-heading" aria-hidden="true">
+            <div class="scene-backdrop"></div><div class="scene-grid"></div><div class="scene-vignette"></div>
+            <div class="scene-inner projects-inner">
+              <div class="scene-heading"><div><span class="scene-index mono">02 / BUILD</span><h2 id="projects-heading">From trigger<br /><em>to outcome.</em></h2></div><p>Practical n8n workflows, built to validate, route, alert, and report.</p></div>
+              <div class="project-deck">
+                <article class="project-card featured glass-panel">
+                  <div class="project-diagram" aria-hidden="true"><div class="diagram-caption mono">FEEDBACK INTAKE / FLOW 01</div><div class="diagram-node trigger-node"><i>↳</i><span><small>TRIGGER</small>Form response</span></div><b class="diagram-line"></b><div class="diagram-node ai-node"><i>✳</i><span><small>CLASSIFY</small>Gemini · sentiment</span></div><b class="diagram-branch"></b><div class="diagram-endpoints"><div class="diagram-node"><i>▤</i><span><small>STORE</small>Sheets</span></div><div class="diagram-node"><i>↗</i><span><small>ALERT</small>Slack + Telegram</span></div></div><div class="diagram-state mono"><i></i> VALIDATED · DEDUPLICATED · MONITORED</div></div>
+                  <div class="project-copy"><div class="card-overline mono"><span>FEATURED · 01</span><span>n8n / GEMINI / API</span></div><h3 id="project-title">Feedback Intake<br /><em>& Weekly Digest</em></h3><p id="project-description">Validates and normalizes submissions, deduplicates by email, classifies written feedback, alerts on low ratings, and sends a scheduled weekly summary.</p><div class="project-chips"><span>Structured output</span><span>Error monitoring</span><span>Google Sheets</span></div><a class="card-link" href="https://github.com/Sofiqulxislam/feedback-intake-automation" target="_blank" rel="noreferrer">VIEW PROJECT ON GITHUB <b>↗</b></a></div>
+                </article>
+                <div class="project-stack">
+                  <article class="project-card compact glass-panel"><span class="project-symbol">⌁</span><div><div class="card-overline mono">02 · WEATHER API</div><h3>Rain Checker</h3><p>Scheduled precipitation checks send a Telegram alert when rain is likely the next day.</p><span class="mini-tech mono">n8n <i>·</i> TELEGRAM</span></div><b class="compact-arrow">↗</b></article>
+                  <article class="project-card compact glass-panel"><span class="project-symbol">“</span><div><div class="card-overline mono">03 · SCHEDULED</div><h3>Quote Bot</h3><p>Fetches a public quote on a schedule and delivers it to Telegram automatically.</p><span class="mini-tech mono">n8n <i>·</i> PUBLIC API</span></div><b class="compact-arrow">↗</b></article>
+                  <article class="project-card compact glass-panel"><span class="project-symbol">✳</span><div><div class="card-overline mono">04 · ON DEMAND</div><h3>Joke Bot</h3><p>A manual trigger calls a joke API, shapes its JSON response, and sends the result.</p><span class="mini-tech mono">n8n <i>·</i> HTTP REQUEST</span></div><b class="compact-arrow">↗</b></article>
+                </div>
+              </div>
+              <div class="scene-foot mono"><span>WORKFLOWS THAT KEEP MOVING</span><span class="interaction-hint">HOVER TO EXPLORE · </span><span>SCROLL TO CONTINUE ↓</span></div>
+            </div>
+          </section>
+
+          <section class="story-scene scene-about" id="about" data-scene="2" aria-labelledby="about-heading" aria-hidden="true">
+            <div class="scene-backdrop"></div><div class="scene-grid"></div><div class="scene-vignette"></div>
+            <div class="scene-inner about-inner">
+              <div class="scene-heading about-heading"><div><span class="scene-index mono">03 / APPROACH</span><h2 id="about-heading">How I build<br /><em>with intent.</em></h2></div><p>Computer Science & Engineering student at UITS, Dhaka. I learn by building, connecting services, and improving how workflows handle real inputs.</p></div>
+              <div class="about-layout">
+                <div class="approach-panel glass-panel"><span class="panel-label mono">MY APPROACH</span><div class="approach-steps"><article><span class="approach-number mono">01</span><div><h3>Understand the input</h3><p>Validate and shape incoming data before it moves through a workflow.</p></div></article><article><span class="approach-number mono">02</span><div><h3>Connect the pieces</h3><p>Use n8n, APIs, and AI services to route useful information to the right place.</p></div></article><article><span class="approach-number mono">03</span><div><h3>Check the edges</h3><p>Think through duplicates, empty values, and errors so a flow can respond clearly.</p></div></article></div></div>
+                <div class="tools-panel glass-panel"><span class="panel-label mono">TOOLS I WORK WITH</span><div class="tool-groups"><div><span class="tool-category mono">AUTOMATION</span><p>n8n</p></div><div><span class="tool-category mono">APIS & AI</span><p>REST APIs <i>·</i> Gemini API</p></div><div><span class="tool-category mono">LANGUAGES</span><p>JavaScript <i>·</i> Python <i>·</i> Java</p></div><div><span class="tool-category mono">DATA</span><p>JSON <i>·</i> Google Sheets</p></div><div><span class="tool-category mono">VERSION CONTROL</span><p>Git <i>·</i> GitHub</p></div></div><div class="skills-note mono">LEARN FAST · BUILD CLEARLY · KEEP IMPROVING</div></div>
+              </div>
+              <div class="scene-foot mono"><span>UITS · COMPUTER SCIENCE & ENGINEERING</span><span>SCROLL TO CONTINUE ↓</span></div>
+            </div>
+          </section>
+
+          <section class="story-scene scene-quality" id="quality" data-scene="3" aria-labelledby="quality-heading" aria-hidden="true">
+            <div class="scene-backdrop"></div><div class="scene-grid"></div><div class="scene-vignette"></div><div class="particle-field" id="particle-field" aria-hidden="true"></div>
+            <div class="scene-inner quality-inner">
+              <div class="scene-heading quality-heading"><div><span class="scene-index mono">04 / VERIFY</span><h2 id="quality-heading">Good flows<br />fail <em>gracefully.</em></h2></div><p>Validation, edge cases, and visible errors turn a promising automation into one you can trust.</p></div>
+              <div class="quality-layout">
+                <div class="test-console glass-panel"><div class="console-top mono"><span>FEEDBACK INTAKE / SAMPLE TEST PLAN</span><span><i></i> 5 SCENARIOS</span></div><div class="test-row"><span class="test-id mono">TC–01</span><div><b>Valid submission</b><small>Normalize fields → classify feedback → save response</small></div><span class="test-result">↳</span></div><div class="test-row"><span class="test-id mono">TC–02</span><div><b>Duplicate email</b><small>Detect prior entry → skip duplicate processing</small></div><span class="test-result">↳</span></div><div class="test-row"><span class="test-id mono">TC–03</span><div><b>Empty comment</b><small>Keep the record → skip the AI call</small></div><span class="test-result">↳</span></div><div class="test-row"><span class="test-id mono">TC–04</span><div><b>Low rating</b><small>Route an alert to Telegram and Slack</small></div><span class="test-result">↳</span></div><div class="test-row"><span class="test-id mono">TC–05</span><div><b>Workflow error</b><small>Report the failing node and run link</small></div><span class="test-result">↳</span></div><div class="testing-focus"><span class="mono">SQA CONCEPTS IN FOCUS</span><div class="concept-chips"><span>Functional testing</span><span>Negative testing</span><span>Boundary values</span><span>Equivalence classes</span><span>Test planning</span><span>Bug reporting</span></div></div></div>
+                <div class="journey-panel glass-panel"><span class="panel-label mono">LEARNING JOURNEY</span><div class="journey-line"><div class="journey-stop"><span class="journey-dot"></span><small class="mono">2017 — 2019</small><div><b>SSC & HSC</b><p>Kaji Jafar Ahmed High School · Khilgaon Model College</p></div></div><div class="journey-stop"><span class="journey-dot"></span><small class="mono">2020 — PRESENT</small><div><b>B.Sc. Computer Science & Engineering</b><p>University of Information Technology & Sciences · Dhaka</p></div></div><div class="journey-stop"><span class="journey-dot"></span><small class="mono">INTERNSHIP</small><div><b>Talent Pro</b><p>Collaborated with classmates on an HR management system website.</p></div></div><div class="journey-stop"><span class="journey-dot"></span><small class="mono">TODAY</small><div><b>Automation + quality</b><p>Building n8n projects and exploring software testing.</p></div></div></div></div>
+              </div>
+              <div class="scene-foot mono"><span>THINK THROUGH THE EDGE CASES</span><span>SCROLL TO CONTINUE ↓</span></div>
+            </div>
+          </section>
+
+          <section class="story-scene scene-contact" id="contact" data-scene="4" aria-labelledby="contact-heading" aria-hidden="true">
+            <div class="scene-backdrop"></div><div class="scene-grid"></div><div class="scene-vignette"></div><div class="contact-portal" aria-hidden="true"></div>
+            <div class="scene-inner contact-inner">
+              <span class="scene-index mono">05 / CONNECT</span><p class="contact-overline mono"><span class="live-dot"></span> OPEN TO OPPORTUNITIES & INTERESTING PROBLEMS</p><h2 id="contact-heading">Let’s make work<br /><em>flow better.</em></h2><p class="contact-copy">Internships, collaborations, or a workflow that could work a little better—I’d like to hear about it.</p>
+              <div class="contact-glass glass-panel"><a class="contact-main-link" id="contact-email-link" href="mailto:Sofiqulsohan2017@gmail.com"><span class="mono">EMAIL</span><b id="contact-email">Sofiqulsohan2017@gmail.com</b><i>↗</i></a><a class="contact-main-link" id="contact-phone-link" href="tel:+8801515265486"><span class="mono">PHONE</span><b id="contact-phone">+880 1515 265486</b><i>↗</i></a><a class="contact-main-link" id="contact-linkedin" href="https://www.linkedin.com/in/sofiqul-islam-6b7b5a217/" target="_blank" rel="noreferrer"><span class="mono">LINKEDIN</span><b>Sofiqul Islam</b><i>↗</i></a><a class="contact-main-link" href="https://github.com/Sofiqulxislam" target="_blank" rel="noreferrer"><span class="mono">GITHUB</span><b>Sofiqulxislam</b><i>↗</i></a></div>
+              <div class="contact-bottomline"><a class="primary-cta" href="mailto:Sofiqulsohan2017@gmail.com">Start a conversation <span>↗</span></a><span class="mono">MADE WITH CURIOSITY · <span id="year"></span></span></div>
+            </div>
+          </section>
+
+          <div class="scene-shutter split-left" aria-hidden="true"></div><div class="scene-shutter split-right" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="journey-caption mono"><span id="scene-caption">01 / INTRO</span><span>SCROLL / EXPLORE</span></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
